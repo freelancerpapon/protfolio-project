@@ -13,14 +13,12 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 padding: 15px 35px;
-
-
-
 }
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .nav-title{
   color: #181818;
@@ -39,4 +37,19 @@ nav > ul{
   nav a{
     text-decoration: none;
     color:#181818
+  }
+  .header{
+    background-color: var(--white-color, #FFF);
+  }
+  .banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+  }
+  .banner .profile-pic{
+    width: 500px;
+    
+
+
   }
