@@ -1,4 +1,5 @@
 body{
+  font-family: 'Lato', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
@@ -39,10 +40,10 @@ nav > ul{
     color:#181818
   }
   .header{
-    background-color: var(--white-color, #FFF);
-    background-image: url(/images/header_bg.png);
+    background-color:#FFF;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left
     
 
   }
