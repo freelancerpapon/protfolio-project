@@ -43,10 +43,8 @@ nav > ul{
     background-color:#FFF;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, top left
-    
-
-  }
+    background-position: bottom right, top left 
+     }
   .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
