@@ -43,7 +43,11 @@ nav > ul{
     background-color:#FFF;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, top left 
+    background-position: bottom right, top left
+  
+
+
+
      }
   .banner{
     padding: 30px 30px 0px 150px;
@@ -59,6 +63,9 @@ nav > ul{
   }
   .banner .profile-pic{
     width: 500px;
+    margin-top: 70px;
+    height: 535px;
+
     
 
 
@@ -183,8 +190,89 @@ width: 100%;
   margin-right: 25px;
 
 }
+.hide{
+  display: none;
+}
 
 
+
+
+
+/* mobie device */
+@media screen and (max-width:576px) {
+  .header{
+    background-image: none;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .banner,
+
+
+
+  .skill-container, .resume-container, footer{
+    flex-direction: column;
+  }
+ .resume-container,{
+    padding: 20px;
+  }
+  #section-description{
+    padding: 10px;
+  }
+  footer{
+    padding: 10px;
+  }
+  .footer-colum{
+    width: 100%;
+  }
+.contact input, textarea {
+  width: 70%;
+
+}
+.about-info-container{
+  flex-direction: column;
+}
+.banner .profile-pic{
+  width: 100%;
+}
+nav > ul {
+  flex-direction: column;
+}
+
+.banner{
+  padding: 20px;
+}
+.button-primary{
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+  .skill-container, .resume-container,{
+    flex-direction: column;
+  }
+  #section-description, .resume-container{
+    padding: 20px;
+}
+}
 
 
 
